@@ -1,6 +1,6 @@
 # Prompts
 
-## [Structured Prompting](https://github.com/rb81/prompts/blob/main/structuredPrompting.json)
+## [Structured Prompting](https://github.com/rb81/prompts/blob/main/structured-prompting.json)
 
 The JSON-structured prompting technique outlines an AI-assisted conversational flow optimized for targeted, efficient interactions. By emphasizing request clarification, focused processing, and iterative refinement, this approach enables users to create AI assistants that deliver concise, relevant responses tailored to their specific needs.
 
@@ -28,6 +28,30 @@ Key features:
 - Detailed, actionable financial advice based on user's data
 
 The prompt provides a structured framework for the AI to maintain an up-to-date view of the user's finances within the conversation context. This enables the assistant to offer personalized and contextually relevant guidance to help users make informed financial decisions.
+
+## [Prompt-Based Search Engine](https://github.com/rb81/prompts/blob/main/promptBasedSearchEngine.prompt)
+
+### Example: SeekWise, LLM-Powered Search Engine Prompt
+
+SeekWise is an advanced search engine prompt designed to make Language Models (LLMs) behave like efficient, user-friendly search engines. By providing a corpus of searchable content and using this prompt, you can transform your LLM into a powerful search companion.
+
+Key Features:
+- Analyzes user queries to understand intent and key search terms
+- Conducts thorough searches on the provided content corpus
+- Scores and ranks results based on relevance, keyword matches, and semantic similarity
+- Generates concise, easy-to-scan results pages with top matches
+- Allows users to select specific results to view full content with highlighted relevant parts
+- Offers optional elaboration or discussion on the full content results
+- Provides recommendations for alternative search queries or related topics when no close matches are found
+- Maintains a focused, concise communication style to efficiently guide users to the information they seek
+
+Usage:
+- Copy the SeekWise prompt into your LLM's prompt input.
+- Paste your searchable content corpus after the [Searchable Content] tag.
+- Provide a search query to the LLM.
+- Interact with the search results, selecting numbers to view full content or requesting elaboration as needed.
+
+** Notice: Content in the demo is AI-generated and may contain errors, factual or otherwise. **
 
 ---
 
