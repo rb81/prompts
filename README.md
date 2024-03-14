@@ -17,10 +17,9 @@ This prompt provides a framework for content moderation that can be used in conj
 ## [Contextual Memory](https://github.com/rb81/prompts/blob/main/contextualMemory.prompt)
 
 ### Example: AI Personal Finance Manager with In-Context Memory
-
 This is a prompt for creating an AI-powered personal finance manager using in-context memory. The AI assistant acts as a financial advisor, helping users track their transactions, create budgets, set financial goals, and generate reports.
 
-Key features:
+### Key Features
 - Flexible interaction style (informative or efficient)
 - Comprehensive categorization of financial data
 - In-context storage of transactions, budgets, goals, and reports
@@ -32,10 +31,9 @@ The prompt provides a structured framework for the AI to maintain an up-to-date 
 ## [Prompt-Based Search Engine](https://github.com/rb81/prompts/blob/main/promptBasedSearchEngine.prompt)
 
 ### Example: SeekWise, LLM-Powered Search Engine Prompt
-
 SeekWise is an advanced search engine prompt designed to make Language Models (LLMs) behave like efficient, user-friendly search engines. By providing a corpus of searchable content and using this prompt, you can transform your LLM into a powerful search companion.
 
-Key Features:
+### Key Features
 - Analyzes user queries to understand intent and key search terms
 - Conducts thorough searches on the provided content corpus
 - Scores and ranks results based on relevance, keyword matches, and semantic similarity
@@ -45,7 +43,7 @@ Key Features:
 - Provides recommendations for alternative search queries or related topics when no close matches are found
 - Maintains a focused, concise communication style to efficiently guide users to the information they seek
 
-Usage:
+### Usage
 - Copy the SeekWise prompt into your LLM's prompt input.
 - Paste your searchable content corpus after the [Searchable Content] tag.
 - Provide a search query to the LLM.
@@ -53,8 +51,33 @@ Usage:
 
 ** Notice: Content in the demo is AI-generated and may contain errors, factual or otherwise. **
 
+## [Nested Prompting](https://github.com/rb81/prompts/blob/main/nestedPrompting.prompt)
+
+### Example: promptOS
+
+promptOS is an interactive conversational operating system designed to be used with language models or AI assistants. It provides a wide range of productivity, entertainment, and utility apps that can be accessed through a simple command-based interface.
+
+### Key Features
+- Calculator: Solve mathematical and scientific equations and problems
+- Chatbot: Engage in friendly conversations on various topics
+- Language Translator: Translate text between different languages
+- Trivia Game: Test your knowledge with questions from various categories
+- Story Generator: Create unique stories based on user input
+- Poetry Generator: Generate personalized poems based on user preferences
+- Joke Teller: Enjoy jokes and humorous anecdotes
+- Riddle Game: Challenge yourself with puzzling riddles and brain teasers
+- Word Association Game: Play a game of word associations and discover interesting facts
+- Mindfulness Coach: Enjoy guided mindfulness and meditation exercises
+- Virtual Debate Club: Engage in structured debates on various topics
+- DIY Project Helper: Get step-by-step guidance and tips for your DIY projects
+- Music Explorer: Discover new music based on your preferences
+- Cooking Companion: Find recipes based on the ingredients you have on hand
+- Notes: Take and manage notes within the conversational interface
+
+### Usage
+To use promptOS, simply copy the provided prompt and paste it into your preferred language model or AI assistant. Follow the available commands and app instructions to interact with the operating system and explore its various features.
+
 ---
 
 ## File Formats
-
 Files are saved in plain text with the `.prompt` extension for convenience, unless using JSON in which case the file is saved with the `.json` extension. When implementing, copy and paste the content or simply upload the desired file.
