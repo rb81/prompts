@@ -77,7 +77,9 @@ promptOS is an interactive conversational operating system designed to be used w
 ### Usage
 To use promptOS, simply copy the provided prompt and paste it into your preferred language model or AI assistant. Follow the available commands and app instructions to interact with the operating system and explore its various features.
 
----
-
 ## File Formats
 Files are saved in plain text with the `.prompt` extension for convenience, unless using JSON in which case the file is saved with the `.json` extension. When implementing, copy and paste the content or simply upload the desired file.
+
+## Transparency Disclaimer
+
+[ai.collaboratedwith.me](https://ai.collaboratedwith.me) in creating this project.
