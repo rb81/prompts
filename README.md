@@ -79,3 +79,7 @@ To use promptOS, simply copy the provided prompt and paste it into your preferre
 
 ## File Formats
 Files are saved in plain text with the `.prompt` extension for convenience, unless using JSON in which case the file is saved with the `.json` extension. When implementing, copy and paste the content or simply upload the desired file.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
