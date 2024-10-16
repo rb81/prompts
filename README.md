@@ -82,7 +82,7 @@ Files are saved in plain text with the `.prompt` extension for convenience, unle
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Transparency Disclaimer
 
